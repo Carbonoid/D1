@@ -1,0 +1,8 @@
+Unless otherwise noted:
+
+- All hardware related files e.g. CAD and STL files in this archive are licensed CERN OHL v1.2.
+  Therefore read LICENCSE-CERN-OHL-1.2.pdf or LICENCSE-CERN-OHL-1.2.txt.
+
+- All software related files e.g. source code and software configuration files in this archive are
+  licensed under the GPLv3 (GNU General Public License V3).
+  Therefore read LICENSE-GPL-3.0.pdf or LICENSE-GPL-3.0.txt.
