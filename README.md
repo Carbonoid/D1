@@ -3,7 +3,7 @@ Repository for the Carbonoid D1 Delta Printer
 
 During the development phase and countless optimization iterations 4 machines were built:
 
-![Carbonoid All-stars](https://raw.githubusercontent.com/Carbonoid/D1/1.0/photos/D1_All.jpg)
+![Carbonoid All-stars](https://github.com/Carbonoid/D1/blob/master/1.0/photos/D1%230002_F3D.jpg?raw=true)
 
 The single extrusion machine #0002 is equipped with a Flex3Drive G4 extruder:
 
