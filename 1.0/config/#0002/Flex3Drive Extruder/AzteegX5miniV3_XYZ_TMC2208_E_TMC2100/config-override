@@ -14,7 +14,7 @@ M665 L386.0000 R169.4949
 ;WCS settings
 G54
 ;Home offset (mm):
-M206 X0.00 Y0.00 Z4.27 
+M206 X0.00 Y0.00 Z4.24 
 ;Trim (mm):
 M666 X-1.127 Y-0.908 Z-0.094
 ;Max Z
