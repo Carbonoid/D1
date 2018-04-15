@@ -270,10 +270,13 @@ panel.bed_temperature                        60                # temp to set bed
 # NOTE _ gets converted to space in the menu and commands, | is used to separate multiple commands
 #
 custom_menu.pause.enable                       true              #
-custom_menu.pause.name                         Pause             #
-custom_menu.pause.command                      M600|G91|G1_Z50   #
+custom_menu.pause.name                         Pause_print       #
+custom_menu.pause.command                      M600              #
+after_suspend_gcode                            G91_G0E-5_G0Z50
+leave_heaters_on_suspend                       true
+
 custom_menu.resume.enable                      true              #
-custom_menu.resume.name                        Resume            #
+custom_menu.resume.name                        Resume_print      #
 custom_menu.resume.command                     M601              #
 
 custom_menu.move0.enable                       true              #
