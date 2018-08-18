@@ -201,9 +201,9 @@ temperature_control.hotend.max_temp            250              # Set maximum te
 # Hotend PID configuration
 # ---------------------------------------------------------------------
 # J-Head MK10 hotend
-temperature_control.hotend.p_factor            24
-temperature_control.hotend.i_factor            1.495
-temperature_control.hotend.d_factor            96
+temperature_control.hotend.p_factor            15.3
+temperature_control.hotend.i_factor            0.639
+temperature_control.hotend.d_factor            84
 
 # temperature_control.bed.thermistor can be one of the following:
 # EPCOS100K, RRRF100K, RRRF10K, Honeywell100k, Semitec, or HT100K
