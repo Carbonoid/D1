@@ -10,7 +10,7 @@ M203 X200.00000 Y200.00000 Z200.00000 S-1.00000
 ;Max actuator feedrates in mm/sec:
 M203.1 X200.00000 Y200.00000 Z200.00000 
 ;Optional arm solution specific settings:
-M665 L366.5000 R169.0208
+M665 L366.5000 R168.8126
 ;E Steps per mm:
 M92 E950.0000 P58815
 ;E Filament diameter:
@@ -24,21 +24,21 @@ M204 E125.0000 P58815
 ;E max feed rate mm/sec:
 M203 E30.0000 P58815
 ;PID settings:
-M301 S0 P15.2881 I0.6926 D84.3709 X255.0000 Y255
+M301 S0 P39.8738 I3.0037 D132.3312 X255.0000 Y255
 ;Max temperature setting:
-M143 S0 P250.0000
+M143 S0 P285.0000
 ;PID settings:
 M301 S1 P10.0000 I0.3000 D200.0000 X255.0000 Y255
 ;Max temperature setting:
 M143 S1 P130.0000
 ;Home offset (mm):
-M206 X0.00 Y0.00 Z5.96 
+M206 X0.00 Y0.00 Z4.60 
 ;Trim (mm):
-M666 X-0.626 Y0.000 Z-1.847
+M666 X-0.877 Y-0.086 Z-1.706
 ;Max Z
-M665 Z287.500
+M665 Z273.000
 ;Probe feedrates Slow/fast(K)/Return (mm/sec) max_z (mm) height (mm) dwell (s):
-M670 S11.00 K50.00 R33.00 Z287.50 H15.00 D0.00
+M670 S11.00 K50.00 R33.00 Z273.00 H15.00 D0.00
 ;Probe offsets:
 M565 X0.00000 Y0.00000 Z0.00000
 ;Load saved grid
