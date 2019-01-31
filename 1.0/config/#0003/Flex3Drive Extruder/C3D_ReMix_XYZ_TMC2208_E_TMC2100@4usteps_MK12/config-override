@@ -16,7 +16,7 @@ M92 E950.0000 P58815
 ;E Filament diameter:
 M200 D0.0000 P58815
 ;E retract length, feedrate:
-M207 S3.0000 F2700.0000 Z0.0000 Q6000.0000 P58815
+M207 S1.8000 F1800.0000 Z0.4000 Q1800.0000 P58815
 ;E retract recover length, feedrate:
 M208 S0.0000 F480.0000 P58815
 ;E acceleration mm/sec²:
@@ -32,7 +32,7 @@ M301 S1 P10.0000 I0.3000 D200.0000 X255.0000 Y255
 ;Max temperature setting:
 M143 S1 P130.0000
 ;Home offset (mm):
-M206 X0.00 Y0.00 Z4.60 
+M206 X0.00 Y0.00 Z4.57 
 ;Trim (mm):
 M666 X-0.877 Y-0.086 Z-1.706
 ;Max Z

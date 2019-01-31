@@ -168,6 +168,12 @@ extruder.Flex3Drive.max_speed                30               # mm/s
 extruder.Flex3Drive.step_pin                 1.20             # Pin for extruder step signal
 extruder.Flex3Drive.dir_pin                  1.19!            # Pin for extruder dir signal
 extruder.Flex3Drive.en_pin                   1.21             # Pin for extruder enable signal
+extruder.Flex3Drive.retract_length           1.8              # retract length in mm
+extruder.Flex3Drive.retract_feedrate         30               # retract feedrate in mm/sec
+extruder.Flex3Drive.retract_recover_length   0                # additional length for recover
+extruder.Flex3Drive.retract_recover_feedrate 8                # recover feedrate in mm/sec (should be less than retract feedrate)
+extruder.Flex3Drive.retract_zlift_length     0.4              # zlift on retract in mm, 0 disables
+extruder.Flex3Drive.retract_zlift_feedrate   1800             # zlift feedrate in mm/min (Note mm/min NOT mm/sec)
 #delta_current                                0.400           # max current in ampere
 
 
