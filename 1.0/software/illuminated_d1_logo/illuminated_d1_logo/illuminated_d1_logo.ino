@@ -1,11 +1,11 @@
 
 /*
-  D1 Front Panel Lights
+  Illuminated D1 Logo
   
   Using a NeoPixel module to illumniate the Carbonoid D1 Logo Panel.
   
   Created by:  Alex Skoruppa
-  Date:        March 10, 2018
+  Date:        May 10, 2019
   License:     GPLv3
 */
 #include <Adafruit_NeoPixel.h>
