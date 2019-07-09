@@ -32,7 +32,7 @@ M301 S1 P209.4000 I27.0200 D406.0000 X255.0000 Y255
 ;Max temperature setting:
 M143 S1 P130.0000
 ;Home offset (mm):
-M206 X0.00 Y0.00 Z4.76 
+M206 X0.00 Y0.00 Z4.68 
 ;Trim (mm):
 M666 X-0.059 Y-0.278 Z-0.653
 ;Max Z
