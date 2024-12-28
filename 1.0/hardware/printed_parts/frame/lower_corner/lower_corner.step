@@ -12,7 +12,7 @@ cturing Information (PMI)---4.0---2014-10-13'),
 
 FILE_NAME(
 /* name */ 'lower_corner.step',
-/* time_stamp */ '2024-12-13T19:24:53+01:00',
+/* time_stamp */ '2024-12-28T19:35:47+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -3500,19 +3500,19 @@ SOLID_ANGLE_UNIT()
 #3273=SHAPE_REPRESENTATION('',(#1733,#1954),#3261);
 #3274=SHAPE_REPRESENTATION('',(#1734),#3262);
 #3275=PRODUCT_DEFINITION_CONTEXT('part definition',#3283,'design');
-#3276=PRODUCT_DEFINITION('lower_corner','lower_corner v5',#3278,#3275);
+#3276=PRODUCT_DEFINITION('lower_corner','lower_corner v6',#3278,#3275);
 #3277=PRODUCT_DEFINITION('LowerCornerSolid','LowerCornerSolid',#3279,#3275);
 #3278=PRODUCT_DEFINITION_FORMATION('',$,#3285);
 #3279=PRODUCT_DEFINITION_FORMATION('',$,#3286);
-#3280=PRODUCT_RELATED_PRODUCT_CATEGORY('lower_corner v5',
-'lower_corner v5',(#3285));
+#3280=PRODUCT_RELATED_PRODUCT_CATEGORY('lower_corner v6',
+'lower_corner v6',(#3285));
 #3281=PRODUCT_RELATED_PRODUCT_CATEGORY('LowerCornerSolid',
 'LowerCornerSolid',(#3286));
 #3282=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'ap242_managed_model_based_3d_engineering',2011,#3283);
 #3283=APPLICATION_CONTEXT('Managed model based 3d engineering');
 #3284=PRODUCT_CONTEXT('part definition',#3283,'mechanical');
-#3285=PRODUCT('lower_corner','lower_corner v5',$,(#3284));
+#3285=PRODUCT('lower_corner','lower_corner v6',$,(#3284));
 #3286=PRODUCT('LowerCornerSolid','LowerCornerSolid',$,(#3284));
 #3287=PRESENTATION_STYLE_ASSIGNMENT((#3289));
 #3288=PRESENTATION_STYLE_ASSIGNMENT((#3290));
