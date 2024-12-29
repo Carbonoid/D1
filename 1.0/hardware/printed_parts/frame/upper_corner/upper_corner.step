@@ -12,7 +12,7 @@ cturing Information (PMI)---4.0---2014-10-13'),
 
 FILE_NAME(
 /* name */ 'upper_corner.step',
-/* time_stamp */ '2024-12-29T14:15:22+01:00',
+/* time_stamp */ '2024-12-29T19:18:49+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -6905,15 +6905,15 @@ SOLID_ANGLE_UNIT()
 #6504=SHAPE_REPRESENTATION('',(#3343,#3749),#6488);
 #6505=SHAPE_REPRESENTATION('',(#3344),#6489);
 #6506=PRODUCT_DEFINITION_CONTEXT('part definition',#6517,'design');
-#6507=PRODUCT_DEFINITION('upper_corner','upper_corner v6',#6510,#6506);
+#6507=PRODUCT_DEFINITION('upper_corner','upper_corner v7',#6510,#6506);
 #6508=PRODUCT_DEFINITION('D1_UpperCornerSolid','D1_UpperCornerSolid',#6511,
 #6506);
 #6509=PRODUCT_DEFINITION('UpperCornerSolid','UpperCornerSolid',#6512,#6506);
 #6510=PRODUCT_DEFINITION_FORMATION('',$,#6519);
 #6511=PRODUCT_DEFINITION_FORMATION('',$,#6520);
 #6512=PRODUCT_DEFINITION_FORMATION('',$,#6521);
-#6513=PRODUCT_RELATED_PRODUCT_CATEGORY('upper_corner v6',
-'upper_corner v6',(#6519));
+#6513=PRODUCT_RELATED_PRODUCT_CATEGORY('upper_corner v7',
+'upper_corner v7',(#6519));
 #6514=PRODUCT_RELATED_PRODUCT_CATEGORY('D1_UpperCornerSolid',
 'D1_UpperCornerSolid',(#6520));
 #6515=PRODUCT_RELATED_PRODUCT_CATEGORY('UpperCornerSolid',
@@ -6922,7 +6922,7 @@ SOLID_ANGLE_UNIT()
 'ap242_managed_model_based_3d_engineering',2011,#6517);
 #6517=APPLICATION_CONTEXT('Managed model based 3d engineering');
 #6518=PRODUCT_CONTEXT('part definition',#6517,'mechanical');
-#6519=PRODUCT('upper_corner','upper_corner v6',$,(#6518));
+#6519=PRODUCT('upper_corner','upper_corner v7',$,(#6518));
 #6520=PRODUCT('D1_UpperCornerSolid','D1_UpperCornerSolid',$,(#6518));
 #6521=PRODUCT('UpperCornerSolid','UpperCornerSolid',$,(#6518));
 #6522=PRESENTATION_STYLE_ASSIGNMENT((#6524));

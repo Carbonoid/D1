@@ -12,7 +12,7 @@ cturing Information (PMI)---4.0---2014-10-13'),
 
 FILE_NAME(
 /* name */ 'middle_corner.step',
-/* time_stamp */ '2024-12-29T14:19:42+01:00',
+/* time_stamp */ '2024-12-29T19:37:35+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -4146,20 +4146,20 @@ SOLID_ANGLE_UNIT()
 #3935=SHAPE_REPRESENTATION('',(#2154,#2441),#3923);
 #3936=SHAPE_REPRESENTATION('',(#2155),#3924);
 #3937=PRODUCT_DEFINITION_CONTEXT('part definition',#3945,'design');
-#3938=PRODUCT_DEFINITION('middle_corner','middle_corner v5',#3940,#3937);
+#3938=PRODUCT_DEFINITION('middle_corner','middle_corner v6',#3940,#3937);
 #3939=PRODUCT_DEFINITION('MiddleCornerSolid','MiddleCornerSolid',#3941,
 #3937);
 #3940=PRODUCT_DEFINITION_FORMATION('',$,#3947);
 #3941=PRODUCT_DEFINITION_FORMATION('',$,#3948);
-#3942=PRODUCT_RELATED_PRODUCT_CATEGORY('middle_corner v5',
-'middle_corner v5',(#3947));
+#3942=PRODUCT_RELATED_PRODUCT_CATEGORY('middle_corner v6',
+'middle_corner v6',(#3947));
 #3943=PRODUCT_RELATED_PRODUCT_CATEGORY('MiddleCornerSolid',
 'MiddleCornerSolid',(#3948));
 #3944=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'ap242_managed_model_based_3d_engineering',2011,#3945);
 #3945=APPLICATION_CONTEXT('Managed model based 3d engineering');
 #3946=PRODUCT_CONTEXT('part definition',#3945,'mechanical');
-#3947=PRODUCT('middle_corner','middle_corner v5',$,(#3946));
+#3947=PRODUCT('middle_corner','middle_corner v6',$,(#3946));
 #3948=PRODUCT('MiddleCornerSolid','MiddleCornerSolid',$,(#3946));
 #3949=PRESENTATION_STYLE_ASSIGNMENT((#3952));
 #3950=PRESENTATION_STYLE_ASSIGNMENT((#3953));
